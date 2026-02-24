@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data & models (keep small sample only)
+data/*.zip
+data/*.tar*
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
